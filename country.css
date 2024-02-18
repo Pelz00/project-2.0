@@ -1,0 +1,53 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin-top: 65px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .details {
+    margin-top: 10px;
+  }
+  
+  #searchForm {
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  #buttonSub{
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
